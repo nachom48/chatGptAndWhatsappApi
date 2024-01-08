@@ -3,12 +3,11 @@ const { Configuration, OpenAIApi } = require("openai")
 
 async function getMessageChatGpt(text) {
     const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: "ADD YOUR KEY HERE"
     })
 
 
     const openai = new OpenAIApi(configuration);
-    console.log("esto tengo de configraucino",openai)
     const response = await openai.createCompletion({
         model:"text-davinci-003",
         prompt:text,
