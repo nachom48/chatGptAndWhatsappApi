@@ -1,0 +1,12 @@
+api se trata de un conjunto de procedimientos y funciones que permite que las palicaciones y programas se comuniquen entre si, 
+su principal funcion es facilitar el trabajo de los desarrolladores,  la api debe interconectar las ya existentes, de esta manera las empresas optimizan su operacion
+y brindan mejor experiencia a sus usuarios.
+
+WhatsappApi,  poder usar su api de una forma sencilla,
+Whatsapp Cloud Api, 
+
+Estan protocolados y protegidos por Signal, estan cifradas en destino y en origen.
+
+Con npm init -y creo el archivo json
+
+npm i para instalar express

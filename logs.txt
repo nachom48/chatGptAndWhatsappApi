@@ -1,0 +1,11 @@
+TypeError: Configuration is not a constructor
+    at Object.getMessageChatGpt (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\services\chatgpt-service.js:5:27)
+    at Object.process (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\shared\processMessage.js:52:48)
+    at ReceivedMessage (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\controllers\whatsappController.js:47:37)
+    at Layer.handle [as handle_request] (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\nacho\OneDrive\Escritorio\Nest\Whastapp\src\node_modules\express\lib\router\index.js:280:10)
